@@ -1,5 +1,5 @@
-name: generate-sources.yml
-on: [ 'workflow_call' ]
+name: Generate Cargo Dependency Sources
+on: [ workflow_dispatch ]
 
 jobs:
   update-generated-file:
